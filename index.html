@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>En 60 Segundos</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #121a2b;
+      --text: #e8eefc;
+      --muted: #9aa8c7;
+      --accent: #5eead4;
+      --accent2: #fb923c;
+      --line: #243049;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
+      background: radial-gradient(1200px 600px at 10% -10%, #1a2744 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(94, 234, 212, 0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    h1 {
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      margin: 16px 0 8px;
+      letter-spacing: -0.02em;
+    }
+    .lead { color: var(--muted); font-size: 1.05rem; margin-bottom: 28px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px 22px 18px;
+      margin-bottom: 18px;
+    }
+    h2 { margin: 0 0 10px; font-size: 1.1rem; color: var(--accent2); }
+    p { margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 1.2rem; color: var(--muted); }
+    li { margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .links { display: grid; gap: 10px; }
+    .links a {
+      display: block;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid var(--line);
+      color: var(--text);
+    }
+    .links a span { color: var(--muted); display: block; font-size: 0.85rem; }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="badge">@60segundosciencia</div>
+    <h1>En 60 Segundos</h1>
+    <p class="lead">
+      Canal de curiosidades de ciencia, espacio y cuerpo humano en vídeos cortos
+      (45–60 s) para España y Latinoamérica. Publicamos en YouTube Shorts,
+      Instagram Reels y TikTok.
+    </p>
+
+    <section class="card">
+      <h2>Sobre esta web</h2>
+      <p>
+        Esta página da soporte a la herramienta interna
+        <strong>En 60 Segundos Pipeline</strong>, usada solo por el titular del
+        canal para publicar y medir el contenido propio. No hay usuarios
+        externos ni venta de datos.
+      </p>
+      <p>
+        <a href="terminos.html">Términos de uso</a>
+        ·
+        <a href="privacidad.html">Política de privacidad</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Canales</h2>
+      <div class="links">
+        <a href="https://www.youtube.com/@60segundosciencia" rel="noopener noreferrer" target="_blank">
+          YouTube
+          <span>youtube.com/@60segundosciencia</span>
+        </a>
+        <a href="https://www.instagram.com/60segundosciencia/" rel="noopener noreferrer" target="_blank">
+          Instagram
+          <span>instagram.com/60segundosciencia</span>
+        </a>
+        <a href="https://www.tiktok.com/@60segundosciencia" rel="noopener noreferrer" target="_blank">
+          TikTok
+          <span>tiktok.com/@60segundosciencia</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      Contacto:
+      <a href="mailto:60segundosciendia@gmail.com">60segundosciendia@gmail.com</a>
+      · Titular: Ismael Delgado (España)
+    </footer>
+  </main>
+</body>
+</html>
